@@ -1,0 +1,34 @@
+.bande{
+    height: 40px;
+    background-color: black;
+}
+nav {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.nav {
+ display: flex;
+ justify-content: space-around;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.list li {
+    list-style: none;
+   
+    font-size: medium;
+    /* display: flexbox;
+    flex-direction: row; */
+    display: inline-block;
+     color: black;
+     list-style: none;
+    
+    
+}
+.list a{
+    color: black;
+   
+}
