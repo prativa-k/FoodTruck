@@ -1,0 +1,12 @@
+{
+    "name": "my-lighttpd",
+    "service": "lighttpd",
+    "dockerComposeFile": "../../docker-compose.yaml",
+    "workspaceFolder": "/var/www/localhost/htdocs",
+    "customizations": {
+        "vscode": {
+            "extensions": [],
+            "setting": {}
+        }
+    }
+}

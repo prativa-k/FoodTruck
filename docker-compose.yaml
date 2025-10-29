@@ -1,0 +1,13 @@
+services:
+  lighttpd:
+    image: sebp/lighttpd
+    ports:
+      - 80:80
+    volumes:
+      - ./code:/var/www/localhost/htdocs
+    tty: true
+
+
+
+
+  
