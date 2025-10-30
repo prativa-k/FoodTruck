@@ -3,6 +3,15 @@
     height: 40px;
     background-color: black;
     margin-top: 10px;
+    position: relative;
+}
+.titre a{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    left:580px;
+    bottom:13px;
+    font-size: 14px;
 }
 nav {
     width: 1200px;
@@ -186,6 +195,7 @@ footer p {
     text-align: center;
     color: #ccc;
 }
+
 
 
 
