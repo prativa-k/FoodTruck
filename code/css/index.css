@@ -139,13 +139,15 @@ figcaption {
     position: absolute;
 
 }
+
+
 .content h1 {
     position: absolute;
     top: 170px;
     left: 450px;
     color: black;
     font-size: 26px;
-    background-color: white;
+    background-color: antiquewhite;
     width: 300px;
     text-align: center;
 }
