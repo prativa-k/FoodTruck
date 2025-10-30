@@ -81,6 +81,42 @@ nav {
     color: black;
    
 }
+
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px; 
+}
+
+figure {
+    border: 2px solid #000;
+    /* margin: 0;  */
+    
+}
+
+figure img {
+    width: 100%;
+    display: block;
+    height: 200px;
+    
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+   
+}
+.image1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px; 
+    margin-top: 30px;
+}
+
 .con {
     width: 100%;
     margin: auto;
@@ -102,6 +138,7 @@ nav {
     text-align: center;
 
 }
+
 .image {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -135,3 +172,4 @@ figcaption {
     gap: 5px; 
     margin: 30px 0;
 }
+
