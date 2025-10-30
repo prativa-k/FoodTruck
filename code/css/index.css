@@ -196,5 +196,34 @@ footer p {
 }
 
 
+.mediterraneo-description {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: #3a3a3a;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    background-color: #f9f7f3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
 
+.mediterraneo-description h2 {
+    color: #d35400; 
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.mediterraneo-description p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.mediterraneo-description:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
 
