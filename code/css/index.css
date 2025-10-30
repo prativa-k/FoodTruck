@@ -91,6 +91,40 @@ figcaption {
     text-align: center;
 
 }
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px; 
+}
+
+figure {
+    border: 2px solid #000;
+    /* margin: 0;  */
+
+}
+
+figure img {
+    width: 100%;
+    display: block;
+    height: 200px;
+
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+
+}
+.image1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px; 
+    margin: 30px 0;
+}
 footer {
     background-color: #000;
     color: white;
@@ -137,4 +171,7 @@ footer {
 footer p {
     text-align: center;
     color: #ccc;
+
 }
+
+
