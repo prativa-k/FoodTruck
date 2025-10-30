@@ -45,3 +45,96 @@ footer p {
     text-align: center;
     color: #ccc;
 }
+
+.bande{
+    height: 40px;
+    background-color: black;
+    margin-top: 10px;
+}
+nav {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.nav {
+ display: flex;
+ justify-content: space-around;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.list li {
+    list-style: none;
+   
+    font-size: medium;
+    /* display: flexbox;
+    flex-direction: row; */
+    display: inline-block;
+     color: black;
+     list-style: none;
+    
+    
+}
+.list a{
+    color: black;
+   
+}
+
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px; 
+}
+
+figure {
+    border: 2px solid #000;
+    /* margin: 0;  */
+    
+}
+
+figure img {
+    width: 100%;
+    display: block;
+    height: 200px;
+    
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+   
+}
+.image1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px; 
+    margin-top: 30px;
+}
+
+.con {
+    width: 100%;
+    margin: auto;
+   
+}
+.img {
+    width: 100%;
+ background-image: url(https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.jpg?s=612x612&w=0&k=20&c=9awLLRMBLeiYsrXrkgzkoscVU_3RoVwl_HA-OT-srjQ=);
+    height: 60vh;
+    background-repeat: none;
+    object-fit: contain;
+    margin:30px 0;
+     position: relative;
+   
+}
+.content {
+    width: 600px ;
+    color: white;
+    text-align: center;
+
+}
