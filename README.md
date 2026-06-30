@@ -17,7 +17,6 @@ and Docker while developing a web application as a team.
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript
 - Docker
 - GitHub (team collaboration)
 
